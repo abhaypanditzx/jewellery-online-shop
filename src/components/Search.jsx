@@ -27,9 +27,9 @@ const Search = () => {
         setIsFocus(false);
       }}
       value={query}
-      className="bg-transparent outline-none placeholder:p-4"
+      className="bg-transparent sm:w-[150px] md:w-[200px] outline-none placeholder:p-4"
     />
-    <button className="bg-black px-4 py-2.5 text-white ">
+    <button className="bg-black px-4  py-2.5 text-white ">
       <IoSearchOutline />
     </button>
   </div>

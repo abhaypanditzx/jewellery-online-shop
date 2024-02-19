@@ -4,7 +4,7 @@ import { FaStar ,FaStarHalfAlt } from "react-icons/fa";
 const Review = () => {
   return (
    <div className="flex flex-col">
-           <h1 className='text-xl text-gray-600 capitalize  font-medium'>reviews </h1>
+           <h1 className='text-xl py-4 text-gray-600 capitalize  font-medium'>reviews </h1>
 
    <div className="flex flex-wrap">
    <div className="flex p-5 bg-white min-h-[200px] xs:h-[300px] shadow-md shadow-black/20 rounded-md flex-col min-w-[200px] max-w-[500px]">

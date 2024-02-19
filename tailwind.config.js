@@ -8,6 +8,11 @@ module.exports = {
         xs:"450px",
         xs2:'320px',
         Xxs: '390px',
+      },
+      colors:{
+       'primary': '#111827',
+        'secondary': '#b91c1c',
+        'tertiary': '#F8CBCB'
       }
     },
   },

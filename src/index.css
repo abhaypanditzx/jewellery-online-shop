@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -14,6 +15,8 @@
 }
 .belle{font-family: 'La Belle Aurore', cursive;}
 .lato{font-family: 'Lato', sans-serif;}
+.oswald{font-family: "Oswald", sans-serif;}
+  
 .bg-gradient{
     background: rgb(0,0,0);
 background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 89%);
@@ -24,4 +27,7 @@ background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 89%);
     background-size: cover ;
     background-repeat: no-repeat;
     height: 100%;
+}
+.custom-rounded{
+    border-radius: 6px 6px 0px 0px;
 }

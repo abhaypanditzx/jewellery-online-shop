@@ -22,7 +22,7 @@ const Navbar = () => {
       <div className="text-lg bg-[#fa9963]  rounded-full w-[40px] h-[40px] flex justify-center items-center  font-italic  text-white">
         J
       </div>
-      <ul className="flex w-full justify-between max-xs:hidden  min-w-[400px] max-w-[400px] items-center">
+      <ul className="flex w-full justify-between max-xs:hidden  sm:w-[400px] md:w-[450px]  max-w-[500px] items-center">
         <li className="text-gray-700 capitalize  cursor-pointer text-lg ">
           home
         </li>
@@ -41,10 +41,10 @@ const Navbar = () => {
         }}
         className="text-2xl xs:hidden"
       />
-      <div className=" p-4 text-2xl max-xs:hidden">
+      {/* <div className=" p-4 text-2xl max-xs:hidden">
         {" "}
         <FaRegCircleUser />
-      </div>
+      </div> */}
     </nav>
   );
 };
