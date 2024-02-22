@@ -1,20 +1,8 @@
 import React from "react";
 import { FaChevronRight } from "react-icons/fa";
+import {collectionData} from "../constants/index"
 const Collections = () => {
-  const collection = [
-    {
-      Name: "earrings",
-      url: `https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Library-Sites-TanishqSharedLibrary/default/dw47b1df4b/homepage/shopByCategory/fod-earrings.jpg`,
-    },
-    {
-      Name: "rings",
-      url: `https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Library-Sites-TanishqSharedLibrary/default/dwfc4fb974/homepage/shopByCategory/fod-rings.jpg`,
-    },
-    {
-      Name: "bracelet",
-      url: `https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Library-Sites-TanishqSharedLibrary/default/dw4dcf3d1d/homepage/shopByCategory/fod-bracelet.jpg`,
-    },
-  ];
+  
 
   return (
     <div className="flex flex-col mt-[100px]">
@@ -25,8 +13,8 @@ const Collections = () => {
         Browse through your favorite categories. We've got them all!
       </h4>
 
-      <div className="flex w-full items-center p-10 max-xs:justify-around xs:justify-start  overflow-scroll max-xs:p-4  mt-4 h-fit max-xs:gap-x-5 sm:gap-x-10 ">
-        {collection.map((e, index) => {
+      <div className="flex w-screen items-center gap-10 flex-wrap p-10 max-xs:justify-around xs:justify-start  overflow-scroll max-xs:p-4  mt-4 h-fit max-xs:gap-x-5  ">
+        {collectionData.map((e, index) => {
           return (
             <div
               key={index}
@@ -42,7 +30,8 @@ const Collections = () => {
                   {e.Name}
                 </h1>
                 <button className="text-base flex justify-center text-primary :text-secondary  hover:text-blue-600 hover:scale-95 duration-[0.1s] w-[100px]  items-center font-light  explore-parent">
-                  <span className="explore">explore</span> <FaChevronRight className=" icon text-xs" />
+                  <span className="explore">explore</span>{" "}
+                  <FaChevronRight className=" icon text-xs" />
                 </button>
               </div>
             </div>

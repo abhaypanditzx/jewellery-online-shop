@@ -7,12 +7,14 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Sidebar from './components/Sidebar';
 import SearchResult from './components/SearchResult';
+import ProductName from './ProductName';
 function App() {
   const {name } = useContext(UserContext)
 
   return (
    <>
    <Navbar/>
+   
    <SearchResult/>
    <Sidebar/>
    <Routes>

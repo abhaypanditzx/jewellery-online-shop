@@ -19,10 +19,11 @@ export const ContextProvider = ({ children }) => {
     setResult(filteredResults);
   };
 
+
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const [query, setQuery] = useState("");
   const [result, setResult] = useState([]);
-  const [isFocus , setIsFocus] = useState(false)
+  const [isFocus, setIsFocus] = useState(false);
 
   return (
     <UserContext.Provider
@@ -37,7 +38,6 @@ export const ContextProvider = ({ children }) => {
         data,
         isFocus,
         setIsFocus,
-        
       }}
     >
       {children}
