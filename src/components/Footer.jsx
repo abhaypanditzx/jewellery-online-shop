@@ -1,5 +1,5 @@
 import React from 'react'
-import {Link} form "react-router-dom"
+import {Link} from "react-router-dom"
 import { FaInstagram, FaWhatsapp, FaTwitter, FaFacebook } from "react-icons/fa";
 const Footer = () => {
   return (
@@ -10,9 +10,9 @@ const Footer = () => {
         </h1>
       </div>
       <div className="flex text-white  justify-around max-xs:w-full xs:w-[50%] m-auto p-4 items-center  ">
-        <Link to="about" >About us</a>
-        <a href="">Contact </a>
-        <a href="">FAQ</a>
+        <Link to="about" >About us</Link>
+        <Link to="contact">Contact </Link>
+        <Link to="faq">FAQ</Link>
 
       </div>
       <div className="flex justify-between">
