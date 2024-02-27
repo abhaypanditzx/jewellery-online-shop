@@ -1,19 +1,12 @@
 import { createContext, useState } from "react";
+import {products} from "./constants"
 
 const UserContext = createContext();
 export const ContextProvider = ({ children }) => {
-  const data = [
-    { name: "Apple" },
-    { name: "Banana" },
-    { name: "Orange" },
-    { name: "Strawberry" },
-    { name: "Pineapple" },
-    { name: "Grapes" },
-  ];
 
   const updateSearchInput = (event) => {
     setQuery(event.target.value);
-    const filteredResults = data.filter((item) =>
+    const filteredResults = products.filter((item) =>
       item.name.toLowerCase().includes(query.toLowerCase())
     );
     setResult(filteredResults);
@@ -35,7 +28,7 @@ export const ContextProvider = ({ children }) => {
         result,
         setResult,
         updateSearchInput,
-        data,
+        products,
         isFocus,
         setIsFocus,
       }}

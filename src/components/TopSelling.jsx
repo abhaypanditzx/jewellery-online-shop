@@ -18,9 +18,9 @@ const TopSelling = () => {
               className="min-h-[200px] shadow-md p-4 shadow-black/10 xs:w-[290px] min-w-[150px] bg-white max-xs:w-[250px] h-fit lg:w-[260px] "
             >
               <img src={e.url} className="lg:h-[200px] max-xs:w-full xs:w-full xs:h-[250px] max-xs:h-[180px] lg:w-full" alt="" />
-            <p className="p-3 lato"><ProductName name={e.name} /></p>
-            <p className="px-2 text-gray-600">{e.currentPrice}</p>
-            <p className="px-2 text-red-500 text-sm line-through ">{e.discount}</p>
+            <div className="p-3 lato"><ProductName name={e.name} /></div>
+            <div className="px-2 text-gray-600">{e.currentPrice}</div>
+            <div className="px-2 text-red-500 text-sm line-through ">{e.discount}</div>
 
             </div>
           );

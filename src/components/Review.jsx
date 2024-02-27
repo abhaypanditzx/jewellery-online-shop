@@ -1,9 +1,10 @@
 import React from 'react'
 import { FaUser } from "react-icons/fa";
 import { FaStar ,FaStarHalfAlt } from "react-icons/fa";
+import {motion} from "framer-motion"
 const Review = () => {
   return (
-   <div className="flex flex-col">
+   <motion.div whileInView={{top:'-50px'}} transition={{duration:0.5}} className="flex mt-[50px]  relative flex-col">
            <h1 className='text-xl py-4 text-gray-600 capitalize  font-medium'>reviews </h1>
 
    <div className="flex flex-wrap">
@@ -27,7 +28,7 @@ const Review = () => {
   </div>
 </div>
    </div>
-   </div>
+   </motion.div>
   )
 }
 

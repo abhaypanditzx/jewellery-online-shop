@@ -3,7 +3,7 @@ import { RiMenu4Fill } from "react-icons/ri";
 import UserContext from "../Context";
 import { FaRegCircleUser } from "react-icons/fa6";
 import Search from "./Search";
-
+import {Link} from "react-router-dom"
 const Navbar = () => {
   const {
     isSidebarOpen,
@@ -20,17 +20,25 @@ const Navbar = () => {
   return (
     <nav className="bg-white sticky top-0 z-50 max-xs:h-[4rem] shadow-md shadow-black/10 h-[5rem] justify-between flex items-center p-4">
       <div className="text-lg bg-[#fa9963]  rounded-full w-[40px] h-[40px] flex justify-center items-center  font-italic  text-white">
-        J
+        <Link to="/">
+          J
+          </Link>
       </div>
       <ul className="flex w-full justify-between max-xs:hidden  sm:w-[400px] md:w-[450px]  max-w-[500px] items-center">
         <li className="text-gray-700 capitalize  cursor-pointer text-lg ">
+         <Link to="/">
           home
+          </Link>
         </li>
         <li className="text-gray-700 capitalize  cursor-pointer text-lg ">
+          <Link to="Product">
           products
+          </Link>
         </li>
         <li className="text-gray-700 capitalize  cursor-pointer text-lg ">
-          about us
+             <Link to="about">
+         about us
+          </Link>
         </li>
       </ul>
       {/* search-bar */}

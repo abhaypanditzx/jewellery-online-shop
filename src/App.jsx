@@ -2,6 +2,9 @@ import React, { useState, useEffect, useContext } from 'react';
 
 import UserContext from "./Context"
 import Home from './pages/Home';
+import Product from "./pages/Product"
+import About from "./pages/About"
+
 import { Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
@@ -19,6 +22,8 @@ function App() {
    <Sidebar/>
    <Routes>
     <Route path='/' element={<Home/>}/>
+    <Route path='product' element={<Product/>}/>
+    <Route path='About' element={<About/>}/>
    </Routes>
    <Footer/>
    </>

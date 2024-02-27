@@ -1,6 +1,7 @@
 import React, { useContext } from 'react'
 import { IoSearchOutline } from "react-icons/io5";
 import UserContext from '../Context';
+import {products} from "../constants"
 const Search = () => {
   const {
     isSidebarOpen,

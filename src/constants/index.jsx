@@ -58,3 +58,208 @@ export const topSelling = [
 
   },
 ];
+export const products = [
+  {
+    "name": "Diamond Necklace",
+    "material": "Diamond",
+    "metal": "White Gold",
+    "price": 350000,
+    "description": "A stunning diamond necklace crafted in white gold."
+  },
+  {
+    "name": "Sapphire Earrings",
+    "material": "Sapphire",
+    "metal": "Sterling Silver",
+    "price": 84000,
+    "description": "Elegant sapphire earrings set in sterling silver."
+  },
+  {
+    "name": "Gold Bracelet",
+    "material": "Gold",
+    "metal": "Yellow Gold",
+    "price": 175000,
+    "description": "A classic gold bracelet suitable for any occasion."
+  },
+  {
+    "name": "Emerald Ring",
+    "material": "Emerald",
+    "metal": "Rose Gold",
+    "price": 145000,
+    "description": "Exquisite emerald ring set in rose gold."
+  },
+  {
+    "name": "Pearl Necklace",
+    "material": "Pearl",
+    "metal": "Platinum",
+    "price": 230000,
+    "description": "Beautiful pearl necklace with platinum setting."
+  },
+  {
+    "name": "Ruby Pendant",
+    "material": "Ruby",
+    "metal": "Yellow Gold",
+    "price": 105000,
+    "description": "Striking ruby pendant on a yellow gold chain."
+  },
+  {
+    "name": "Amethyst Bracelet",
+    "material": "Amethyst",
+    "metal": "White Gold",
+    "price": 72000,
+    "description": "Lovely amethyst bracelet in white gold."
+  },
+  {
+    "name": "Tanzanite Earrings",
+    "material": "Tanzanite",
+    "metal": "White Gold",
+    "price": 98000,
+    "description": "Gorgeous tanzanite earrings set in white gold."
+  },
+  {
+    "name": "Opal Ring",
+    "material": "Opal",
+    "metal": "Yellow Gold",
+    "price": 62000,
+    "description": "Unique opal ring with a yellow gold band."
+  },
+  {
+    "name": "Topaz Necklace",
+    "material": "Topaz",
+    "metal": "Rose Gold",
+    "price": 84000,
+    "description": "Stunning topaz necklace in rose gold."
+  },
+  {
+    "name": "Diamond Stud Earrings",
+    "material": "Diamond",
+    "metal": "White Gold",
+    "price": 220000,
+    "description": "Classic diamond stud earrings in white gold."
+  },
+  {
+    "name": "Emerald Bracelet",
+    "material": "Emerald",
+    "metal": "Yellow Gold",
+    "price": 195000,
+    "description": "Elegant emerald bracelet in yellow gold."
+  },
+  {
+    "name": "Sapphire Bracelet",
+    "material": "Sapphire",
+    "metal": "White Gold",
+    "price": 135000,
+    "description": "Sophisticated sapphire bracelet in white gold."
+  },
+  {
+    "name": "Ruby Necklace",
+    "material": "Ruby",
+    "metal": "Yellow Gold",
+    "price": 250000,
+    "description": "Dazzling ruby necklace in yellow gold."
+  },
+  {
+    "name": "Pearl Earrings",
+    "material": "Pearl",
+    "metal": "Platinum",
+    "price": 125000,
+    "description": "Classic pearl earrings with platinum studs."
+  },
+  {
+    "name": "Amber Ring",
+    "material": "Amber",
+    "metal": "Rose Gold",
+    "price": 80000,
+    "description": "Warm amber ring set in rose gold."
+  },
+  {
+    "name": "Aquamarine Pendant",
+    "material": "Aquamarine",
+    "metal": "White Gold",
+    "price": 110000,
+    "description": "Captivating aquamarine pendant in white gold."
+  },
+  {
+    "name": "Peridot Bracelet",
+    "material": "Peridot",
+    "metal": "Yellow Gold",
+    "price": 72000,
+    "description": "Delightful peridot bracelet in yellow gold."
+  },
+  {
+    "name": "Garnet Earrings",
+    "material": "Garnet",
+    "metal": "White Gold",
+    "price": 55000,
+    "description": "Charming garnet earrings set in white gold."
+  },
+  {
+    "name": "Citrine Necklace",
+    "material": "Citrine",
+    "metal": "Rose Gold",
+    "price": 68000,
+    "description": "Radiant citrine necklace in rose gold."
+  },
+  {
+    "name": "Tourmaline Ring",
+    "material": "Tourmaline",
+    "metal": "Yellow Gold",
+    "price": 96000,
+    "description": "Mesmerizing tourmaline ring with a yellow gold band."
+  },
+  {
+    "name": "Diamond Tennis Bracelet",
+    "material": "Diamond",
+    "metal": "White Gold",
+    "price": 380000,
+    "description": "Exquisite diamond tennis bracelet in white gold."
+  },
+  {
+    "name": "Emerald Earrings",
+    "material": "Emerald",
+    "metal": "Yellow Gold",
+    "price": 148000,
+    "description": "Graceful emerald earrings in yellow gold."
+  },
+  {
+    "name": "Sapphire Ring",
+    "material": "Sapphire",
+    "metal": "White Gold",
+    "price": 195000,
+    "description": "Striking sapphire ring set in white gold."
+  },
+  {
+    "name": "Ruby Bracelet",
+    "material": "Ruby",
+    "metal": "Yellow Gold",
+    "price": 275000,
+    "description": "Extravagant ruby bracelet in yellow gold."
+  },
+  {
+    "name": "Pearl Bracelet",
+    "material": "Pearl",
+    "metal": "Platinum",
+    "price": 195000,
+    "description": "Timeless pearl bracelet with platinum links."
+  },
+  {
+    "name": "Amethyst Necklace",
+    "material": "Amethyst",
+    "metal": "White Gold",
+    "price": 98000,
+    "description": "Chic amethyst necklace in white gold."
+  },
+  {
+    "name": "Opal Earrings",
+    "material": "Opal",
+    "metal": "Yellow Gold",
+    "price": 74000,
+    "description": "Mesmerizing opal earrings with yellow gold studs."
+  },
+  {
+    "name": "Topaz Ring",
+    "material": "Topaz",
+    "metal": "Rose Gold",
+    "price": 105000,
+    "description": "Gorgeous topaz ring set in rose gold."
+  },
+]
