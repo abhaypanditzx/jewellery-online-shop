@@ -9,7 +9,7 @@ function Product(){
 	<div className="min-w-[100px]  min-h-[100px] bg-gray-200 max-w-[200px] ">
 	</div>
 	<div className="flex flex-col p-2">
-	<p className="text-lg font-medium rubik text-gray-800">{e.name}</p>
+	<p className="text-lg font-medium rubik text-gray-800 ">{e.name}</p>
 	<p className="text-base font-semibold text-red-500">₹{e.price}</p>
 	 {/*<p> {e.metal}</p>*/}
 	<p className="text-sm text-gray-600">{e.description}</p>

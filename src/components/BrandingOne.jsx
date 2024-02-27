@@ -11,7 +11,7 @@ const BrandingOne = () => {
                 shop now
               </button>
             </div>
-            <img src={brandingImage} alt="mainImage" className='max-w-[800px] sm:w-[500px] md:w-[700px]  md:h-[450px] xs:w-[500px] min-w-[200px] max-xs:w-full' />
+            <img src={brandingImage} alt="mainImage" className='max-w-[900px] lg:h-full lg:w-[810px] sm:w-[500px] md:w-[700px]  md:h-[450px] xs:w-[500px] min-w-[200px] max-xs:w-full' />
         </div>
     </div>
   )

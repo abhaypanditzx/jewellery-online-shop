@@ -1,6 +1,5 @@
 import React from "react";
 import Review from "../components/Review";
-// import Slider from "../components/Slider";
 import Collections from "../components/Collections";
 import BrandingOne from "../components/BrandingOne";
 import { FaChevronRight } from "react-icons/fa";
