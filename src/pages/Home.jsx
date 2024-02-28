@@ -7,9 +7,10 @@ import { motion } from "framer-motion";
 import TopSelling from "../components/TopSelling";
 import Slogan from "../components/Slogan"
 
+
 const Home = () => {
   return (
-    <div className="h-full w-screen overflow-hidden bg-blue-50/90">
+    <div className="h-full w-screen overflow-hidden bg-white">
       {/* slider  */}
       <BrandingOne />
       <section className="max-xs:p-4 sm:p-10">
@@ -26,7 +27,7 @@ const Home = () => {
           <motion.p
             whileInView={{ left: "0px", opacity: 100 }}
             transition={{ duration: 0.5 }}
-            className="max-xs:text-sm opacity-0 ease-in-out relative left-[-100px] xs:text-lg min-w-[250px] poppins max-w-[700px] p-2 md:p-4"
+            className="max-xs:text-sm opacity-0 ease-in-out relative left-[-150px] text-gray-700 xs:text-lg min-w-[250px] poppins max-w-[700px] p-2 md:p-4"
           >
             <span className="max-xs:hidden ">
               Welcome to jwels, where every piece is a testament to exquisite

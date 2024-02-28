@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { topSelling } from "../constants";
 import ProductName from "../ProductName";
+import { HiOutlineChevronDoubleRight } from "react-icons/hi2";
 const TopSelling = () => {
   return (
     <div className="flex flex-col  mt-[100px]">
@@ -15,14 +16,15 @@ const TopSelling = () => {
           return (
             <div
               key={index}
-              className="min-h-[200px] shadow-md p-4 shadow-black/10 xs:w-[290px] min-w-[150px] bg-white max-xs:w-[250px] h-fit lg:w-[260px] "
+              className="min-h-[200px]  relative cursor-pointer shadow-md p-4 shadow-black/10 xs:w-[290px] min-w-[150px] bg-white max-xs:w-[250px] h-fit lg:w-[260px] "
             >
               <img src={e.url} className="lg:h-[200px] max-xs:w-full xs:w-full xs:h-[250px] max-xs:h-[180px] lg:w-full" alt="" />
             <div className="p-3 lato"><ProductName name={e.name} /></div>
             <div className="px-2 text-gray-600">{e.currentPrice}</div>
             <div className="px-2 text-red-500 text-sm line-through ">{e.discount}</div>
-
+<div className="absolute  bottom-4 flex items-center  right-5 text-gray-600 text-sm"> <span className="h-fit text-center">view</span> <HiOutlineChevronDoubleRight className="text-sm text-gray-600" /></div>
             </div>
+
           );
         })}
       </motion.div>

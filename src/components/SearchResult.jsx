@@ -14,14 +14,14 @@ const SearchResult = () => {
   } = useContext(UserContext);
   return (
     <div
-      className={` fixed backdrop-blur-md   top-[80px] z-40 w-full h-[90vh]  ${
+      className={` fixed backdrop-blur-md  max-xs:top-[50px] top-[80px] z-40 w-full h-[90vh]  ${
         isFocus ? "block " : "hidden"
       } `}
     >
       {" "}
-      <div className=" bg-white w-[60%]  right-0 fixed  m-auto flex flex-col jusitfy-center h-full">
+      <div className=" bg-white max-xs:w-full xs:w-[60%]  right-0 fixed  m-auto flex flex-col jusitfy-center h-full">
         <div className="flex p-5 flex-">
-          <h1 className="text-2xl  font-medium  capitalize w-full ">
+          <h1 className="text-2xl  font-medium max-xs:text-xl capitalize w-full ">
             related searches
           </h1>
          <button onClick={()=>{setIsFocus(false)}}>

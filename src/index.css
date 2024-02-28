@@ -31,3 +31,19 @@ background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 89%);
 .custom-rounded{
     border-radius: 6px 6px 0px 0px;
 }
+
+.bg-custom{
+background-image: url('./assets/bg.jpeg');
+}
+.para-about-us{
+color: #1E1E1E;
+ padding-top: 10px;
+
+}
+.heading-about-us{
+    color: black;
+    text-decoration:underline;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-top: 20px;
+}

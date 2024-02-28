@@ -3,7 +3,10 @@ import { RiMenu4Fill } from "react-icons/ri";
 import UserContext from "../Context";
 import { FaRegCircleUser } from "react-icons/fa6";
 import Search from "./Search";
+import MobileSearch from "./MobileSearch";
+
 import {Link} from "react-router-dom"
+
 const Navbar = () => {
   const {
     isSidebarOpen,
@@ -24,6 +27,7 @@ const Navbar = () => {
           J
           </Link>
       </div>
+<MobileSearch/>
       <ul className="flex w-full justify-between max-xs:hidden  sm:w-[400px] md:w-[450px]  max-w-[500px] items-center">
         <li className="text-gray-700 capitalize  cursor-pointer text-lg ">
          <Link to="/">

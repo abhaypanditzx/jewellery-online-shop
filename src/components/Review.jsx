@@ -4,10 +4,10 @@ import { FaStar ,FaStarHalfAlt } from "react-icons/fa";
 import {motion} from "framer-motion"
 const Review = () => {
   return (
-   <motion.div whileInView={{top:'-50px'}} transition={{duration:0.5}} className="flex mt-[50px]  relative flex-col">
+   <div className="flex flex-col">
            <h1 className='text-xl py-4 text-gray-600 capitalize  font-medium'>reviews </h1>
 
-   <div className="flex flex-wrap">
+   <motion.div whileInView={{top:'-50px'}} transition={{duration:0.5}} className="flex  mt-[50px]  relative flex-wrap">
    <div className="flex p-5 bg-white min-h-[200px] xs:h-[300px] shadow-md shadow-black/20 rounded-md flex-col min-w-[200px] max-w-[500px]">
   <div className="flex w-full h-fit gap-2  items-center p-2" >
     <FaUser className='text-2xl '/>
@@ -27,8 +27,8 @@ const Review = () => {
   I am always so impressed with what they come up with. I highly recommend the store to anyone because they will leave with a beautiful piece of jewelry. 
   </div>
 </div>
-   </div>
    </motion.div>
+   </div>
   )
 }
 
