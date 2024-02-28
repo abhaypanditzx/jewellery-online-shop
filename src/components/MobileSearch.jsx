@@ -19,7 +19,7 @@ const changeFocus = ()=>{
 }
 const [isSearchbarOpen, setIsSearchbarOpen] = useState(false)
   return (
-    <div className="searchbar  bg-[#eeeeee] flex xs:hidden">
+    <div className="searchbar  flex xs:hidden">
     <input
       type="text"
       placeholder="search ..."
@@ -31,10 +31,10 @@ const [isSearchbarOpen, setIsSearchbarOpen] = useState(false)
         setIsFocus(false);
       }}
       value={query}
-      className={`bg-transparent max-xs:w-[140px] outline-none placeholder:p-4 ${isSearchbarOpen? 'block' : 'hidden'}`}
+      className={` max-xs:w-[140px]  bg-[#eeeeee] outline-none placeholder:p-4 ${isSearchbarOpen? 'block' : 'hidden'}`}
     />
-    <button onClick={changeFocus}  className="bg-black px-2  py-2 text-white ">
-      <IoSearchOutline />
+    <button onClick={changeFocus}  className={` ${isSearchbarOpen ? 'bg-black  ' : 'bg-none text-black'} px-2  duration-100 py-2 text-white `}>
+      <IoSearchOutline className={`${isSearchbarOpen ? 'text-white' : 'text-black text-2xl ml-[140px]'}`}/>
     </button>
   </div>
   )

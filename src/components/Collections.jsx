@@ -13,7 +13,7 @@ const Collections = () => {
         Browse through your favorite categories. We've got them all!
       </h4>
 
-      <div className="flex w-screen items-center gap-10 flex-wrap p-10 max-xs:justify-around xs:justify-start  overflow-scroll max-xs:p-4  mt-4 h-fit max-xs:gap-x-5  ">
+      <div className="flex w-screen items-center gap-10 flex-wrap  max-xs:justify-around xs:justify-center   max-xs:p-0  mt-4 h-fit max-xs:gap-5  ">
         {collectionData.map((e, index) => {
           return (
             <div
