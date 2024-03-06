@@ -13,12 +13,12 @@ const Collections = () => {
         Browse through your favorite categories. We've got them all!
       </h4>
 
-      <div className="flex w-screen items-center gap-10 flex-wrap  max-xs:justify-around xs:justify-center   max-xs:p-0  mt-4 h-fit max-xs:gap-5  ">
+      <div className="flex w-screen items-center gap-10 flex-wrap  max-xs:justify-normal xs:justify-start  max-xs:p-0  mt-4 h-fit max-xs:gap-5  ">
         {collectionData.map((e, index) => {
           return (
             <div
               key={index}
-              className="bg-white  rounded-md overflow-hidden shadow-md shadow-black/20  flex flex-col gap-y-2 jusitfy-center items-center max-xs:w-[120px] max-Xxs:w-[90px] max-xs:h-[200px] md:w-[200px] md:h-[260px] min-h-[200px]  min-w-[160px]"
+              className="bg-white  rounded-md overflow-hidden shadow-md shadow-black/20  flex flex-col gap-y-2 jusitfy-center items-center max-xs:w-[120px] max-Xxs:w-[90px] max-xs:h-[230px] md:w-[200px] md:h-[260px] min-h-[200px]  min-w-[160px]"
             >
               <img
                 src={e.url}
@@ -29,7 +29,7 @@ const Collections = () => {
                 <h1 className="max-xs:text-xs font-medium pb-5 text-primary md:text-xl capitalize  xs:text-sm sm:text-lg w-max ">
                   {e.Name}
                 </h1>
-                <button className="text-base flex justify-center text-primary :text-secondary  hover:text-blue-600 hover:scale-95 duration-[0.1s] w-[100px]  items-center font-light  explore-parent">
+                <button className="text-base flex justify-center text-primary max-xs:text-xs xs:text-sm  hover:text-blue-600 hover:scale-95 duration-[0.1s] w-[100px]  items-center font-light  explore-parent">
                   <span className="explore">explore</span>{" "}
                   <FaChevronRight className=" icon text-xs" />
                 </button>
